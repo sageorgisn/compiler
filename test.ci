@@ -1,0 +1,41 @@
+program a{
+        declare a,b,p,f,xx,yy,x enddeclare
+	\**\
+	function f(in x){
+            declare a enddeclare
+            procedure p(){
+                declare a enddeclare
+                a:=4;
+            }
+            procedure p1(){}
+            a:=5;
+            return(a);
+	}
+	
+	a:=90;
+	b:=a+3;
+	p:=a/2;
+	print(p+2);
+	select(a)
+            1: a:=2;
+            2: b:=3;
+            default:
+            a:=5;
+            
+        ;
+        do{
+         a:=a+1;
+         exit;
+         do{
+            a:=a+2;
+            exit;
+            
+            b:=b+3;
+         }while(xx<yy);
+         
+         b:=b+1;
+         exit;
+         }while(x<0);
+         
+	a:=90;
+}
